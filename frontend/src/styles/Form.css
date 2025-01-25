@@ -1,0 +1,162 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    margin-bottom: -10px;
+  }
+  
+  .form-input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+
+  .form-button {
+    width: 50%;
+    padding: 7.5px;
+    margin: 1px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .add-button {
+    width: 70%;
+    padding: 7.5px;
+    margin: 1px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+
+  div {
+    font-family: Arial, sans-serif;
+  }
+
+  .login-button{ 
+    position: fixed;
+    top: 10px;
+    right:10px;
+    width: 10%;
+    padding: 5px;
+    margin: 1px 0;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .home-button{ 
+    position: fixed;
+    top: 10px;
+    right:10px;
+    width: 10%;
+    padding: 5px;
+    margin: 1px 0;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  h2 {
+    margin-bottom: -20px; /* Reduces the space below the <h2> */
+  }
+
+  .createWatchlist-input {
+    width: 15%;
+    padding: 7px;
+    margin: 5px  0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .createWatchlist-button {
+    width: 5%;
+    padding: 7.5px;
+    margin: 5px  2px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+
+
+  /* Select Portion */ 
+  .select-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 1px;
+  border-radius: 15px;
+  max-width: 300px;
+}
+
+.select-input {
+  width: 80%; /* Adjust the width to match other input fields */
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; /* White background for the select */
+  color: #333; /* Text color */
+  font-size: 14px; /* Font size for the options */
+  box-sizing: border-box; /* Ensures the padding is inside the width */
+  cursor: pointer; /* Indicates it is clickable */
+  transition: border-color 0.2s ease-in-out; /* Smooth border color transition */
+}
+
+.select-input:hover {
+  border-color: #007bff; /* Change border color on hover */
+}
+
+.select-input:focus {
+  border-color: #0056b3; /* Darker border color on focus */
+  outline: none; /* Remove the default outline */
+}
+
+.add2-button {
+  width: 50%;
+  padding: 8px;
+  margin: 5px 2px ;
+  font-size: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out; 
+}
